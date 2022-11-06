@@ -57,7 +57,7 @@ export default function ImageListDesktop() {
       //gap={6}
       cols={6}
       //rowHeight={size.height / 4}
-      sx={{ overflow: "hidden" }}
+      sx={{ overflow: "hidden", mt: 2 }}
     >
       {itemData.map((item, index) => (
         <Link href={item.route} key={index}>
