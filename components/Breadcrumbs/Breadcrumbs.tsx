@@ -142,7 +142,7 @@ function Breadcrumbs() {
       <nav>
         <Link href={"/"}>
           <StyledBreadcrumb
-            component="a"
+            component="span"
             label="Главная"
             sx={{ m: 0.5 }}
             icon={<HomeIcon fontSize="small" />}
